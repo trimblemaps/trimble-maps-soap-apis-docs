@@ -10,7 +10,7 @@ repository:
   description: Trimble MAPS Soap API Docs
 
   # A URL with more information about the repository
-  homepage: https://developer.trimblemaps.com/soap-apis/docs/authentication-and-headers/
+  homepage: https://developer.trimblemaps.com/soap-apis/
 
   # A comma-separated list of topics to set on the repository
   topics: trimble-maps
