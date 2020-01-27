@@ -188,7 +188,7 @@ The GetETAOutOfRouteReport operation returns the out of route(Oor) mileage and e
 
 #### Request Body Elements
 
-Represents a request to perform out of route mileage and estimated time of arrival from supplied current locations for a defined route. Request body gets or sets the body of the request which contains information needed to perform the operation.
+Represents a request to perform out of route mileage and estimated time of arrival from supplied current locations for a defined route. Request body gets or sets the body of the request, which contains information needed to perform the operation.
 
 <table class="table table-sm">
   <thead>
