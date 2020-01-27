@@ -1,0 +1,16 @@
+{
+  "name": "trimble-maps-soap-apis-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Markdown docs for Trimble MAPS Soap APIs",
+  "homepage": "https://developer.trimblemaps.com/soap-apis/",
+  "bugs": {
+    "url": "https://github.com/trimblemaps/trimble-maps-soap-apis-docs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trimblemaps/trimble-maps-soap-apis-docs.git"
+  },
+  "license": "MIT",
+  "author": "Trimble MAPS"
+}
