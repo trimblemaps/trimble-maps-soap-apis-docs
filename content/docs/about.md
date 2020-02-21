@@ -37,8 +37,8 @@ main td:first-child {min-width:99px}
 
 | Element       | Definition                                                                                                                                                                                                                                    | Required |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `DataVersion` | String value. The data version can be any version number ranging from 18 through 32. Use "LastQuarter" for last quarter data, "current" for current quarter data and baseline for release quarter data.<br><br>Usage: dataVersion = "current" | N        |
-| `RequestType` | String value "AboutMapService".<br><br>Usage: RequestType = "AboutMapService"                                                                                                                                                                 | Y        |
+| `DataVersion` | String value. The data version can be any version number ranging from 25 through 32. Use "LastQuarter" for last quarter data, "current" for current quarter data and baseline for release quarter data.<br><br>Usage: dataVersion = "current" | N        |
+| `RequestType` | String value.<br>Options include:<br>RequestType = "Geocode" for the geocode version. RequestType = "Map" for the map data version. RequestType = "RouteType" for the routing version. If an incorrect value or no value is entered, RouteType will be used.                                                                                                                                                                  | Y        |
 
 #### Calling AboutService
 
@@ -46,7 +46,7 @@ main td:first-child {min-width:99px}
 Request req = new Request();
 req.Header = new RequestHeader();
 req.Header.DataVersion = DataVersion.ToString();
-req.Header.RequestType = "AboutMapService";
+req.Header.RequestType = "Map";
 
 // Create the authentication and authorization header
 AuthHeader soapHeader = GenerateAuthHeader(APIName);
@@ -73,7 +73,7 @@ Response response = service.AboutService(soapHeader, req);
       <v1:Request>
         <v1:Header>
           <v1:DataVersion>current</v1:DataVersion>
-          <v1:RequestType>AboutMapService</v1:RequestType>
+          <v1:RequestType>Map</v1:RequestType>
         </v1:Header>
       </v1:Request>
     </v1:AboutService>
@@ -90,7 +90,7 @@ Response response = service.AboutService(soapHeader, req);
     <AboutServiceResponse xmlns="https://pcmiler.alk.com/APIs/v1.0">
       <AboutServiceResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <Header>
-          <Type>AboutMapService</Type>
+          <Type>Map</Type>
           <Success>true</Success>
           <DataVersion>28.0.24.5492</DataVersion>
           <Errors i:nil="true" />
