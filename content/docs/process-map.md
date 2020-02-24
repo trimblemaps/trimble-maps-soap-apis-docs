@@ -1557,7 +1557,7 @@ MapRoutesResponse response = service.ProcessMap(soapHeader, request);
 ```xml
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">https://pcmiler.alk.com/APIs/v1.0/IService/CreateRouteSyncMessage</Action>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">https://pcmiler.alk.com/APIs/v1.0/IService/ProcessMap</Action>
     <h:AuthHeader xmlns="http://www.alk.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.alk.com">
       <Authorization>A77097D2D202A743BB1660E15794D7CA</Authorization>
       <Date>Thu, 21 Aug 2014 16:23:26 GMT</Date>
