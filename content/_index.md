@@ -1,11 +1,5 @@
 ---
 title: Authentication and Headers
-private: true
+layout: redirect
+redirect: "docs/authentication-and-headers/"
 ---
-
-<style>
-#body-inner,
-#sidebar {opacity:0}
-</style>
-
-<meta http-equiv="refresh" content="0;url=docs/authentication-and-headers/">
