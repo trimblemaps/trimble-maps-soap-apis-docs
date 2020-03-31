@@ -90,7 +90,6 @@ The GetReports operation allows the user to run routes based on location and opt
                   <m:Weight>String</m:Weight>
                   <m:Width>String</m:Width>
                 </m:TruckCfg>
-                <m:UseAvoidsAndFavors>true</m:UseAvoidsAndFavors>
                 <m:VehicleType>Truck</m:VehicleType>
               </m:Options>
               <m:FuelOptions>
