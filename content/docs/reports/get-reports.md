@@ -766,11 +766,6 @@ Represents the result of geocoding or reverse geocoding location.
               <td>Indicates that the timezone should be the local time at each stop.</td>
             </tr>
             <tr>
-              <td><code>System</code></td>
-              <td>1</td>
-              <td>Indicates that the timezone to be that of the server.</td>
-            </tr>
-            <tr>
               <td><code>Hawaii</code></td>
               <td>2</td>
               <td>Indicates the timezone for Hawaii.</td>
