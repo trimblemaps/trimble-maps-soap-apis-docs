@@ -1121,11 +1121,6 @@ RouteOptions Members
                                         <td>2</td>
                                         <td>Indicates a National Network class override.</td>
                                     </tr>
-                                    <tr>
-                                        <td>FiftyThreeFoot,NationalNetwork</td>
-                                        <td>3</td>
-                                        <td>Indicates a FiftyThreeFoot and National Network class override.</td>
-                                    </tr>
                                 </tbody>
                             </table>
                             <br>
