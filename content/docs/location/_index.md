@@ -9,6 +9,6 @@ There are two location functions, `reverseGeocode` and `geocode`. The geocode se
 
 ### GeocodeResponseBody Members
 
-| Element  | Definition                                                                                                                   |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Element  | Definition                                                                                                                         |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Location | A list <> of [GeocodeOutputLocation](../shared-api-members/#location) objects. Gets or sets the collection of locations of geocode |

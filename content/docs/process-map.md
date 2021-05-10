@@ -509,7 +509,7 @@ Represents various settings associated with requesting a map.
                             Usage: <br>
                             <span>TrafficDrawer td = new TrafficDrawer();</span><br>
                             <span>{</span><br>
-                            <span>&nbsp;&nbsp;DateAndTime = new DateTimeTpye(){</span><br>
+                            <span>&nbsp;&nbsp;DateAndTime = new DateTimeType(){</span><br>
                             <span>&nbsp;&nbsp;CalendarDate = "01/13/2015",</span><br>
                             <span>},</span><br>
                             <span>TimeType = TrafficTime.Actual,</span><br>
@@ -1322,7 +1322,7 @@ Represents the style for a PinCategory.
 
 #### ALKBrush Members
 
-Represents a paing brush that controls color and opacity to fill in rectangles used as part of an ALKStyle for pin categories.
+Represents a painting brush that controls color and opacity to fill in rectangles used as part of an ALKStyle for pin categories.
 
 <table class="table table-sm">
   <thead>

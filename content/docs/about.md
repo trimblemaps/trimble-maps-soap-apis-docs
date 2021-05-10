@@ -35,10 +35,10 @@ The AboutService operation returns the version of PC\*MILER Web Services.
 main td:first-child {min-width:99px}
 </style>
 
-| Element       | Definition                                                                                                                                                                                                                                    | Required |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `DataVersion` | String value. The data version can be any version number ranging from 25 through 32. Use "LastQuarter" for last quarter data, "current" for current quarter data and baseline for release quarter data.<br><br>Usage: dataVersion = "current" | N        |
-| `RequestType` | String value.<br>Options include:<br>RequestType = "Geocode" for the geocode version. RequestType = "Map" for the map data version. RequestType = "RouteType" for the routing version. If an incorrect value or no value is entered, RouteType will be used.                                                                                                                                                                  | Y        |
+| Element       | Definition                                                                                                                                                                                                                                                   | Required |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| `DataVersion` | String value. The data version can be any version number ranging from 25 through 32. Use "LastQuarter" for last quarter data, "current" for current quarter data and baseline for release quarter data.<br><br>Usage: dataVersion = "current"                | N        |
+| `RequestType` | String value.<br>Options include:<br>RequestType = "Geocode" for the geocode version. RequestType = "Map" for the map data version. RequestType = "RouteType" for the routing version. If an incorrect value or no value is entered, RouteType will be used. | Y        |
 
 #### Calling AboutService
 
