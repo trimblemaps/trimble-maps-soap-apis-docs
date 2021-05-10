@@ -181,7 +181,7 @@ Represents the request of a RadiusSearchRequest allowing the user to set the cen
 | `Place`                | 4                | Indicates a custom place as the point of interest.                                |
 | `Airport`              | 8                | Indicates to include airports as the point of interest.                           |
 | `Automotive`           | 16               | Indicates to include automotive/vehicle repair facility as the point of interest. |
-| `WeighStation`        | 32               | Indicates to include weigh stations as the point of interest.                    |
+| `WeighStation`         | 32               | Indicates to include weigh stations as the point of interest.                     |
 | `Dining`               | 64               | Indicates to include restaurants as the point of interest.                        |
 | `Education`            | 128              | Indicates to include schools and universities as the point of interest.           |
 | `Emergency`            | 256              | Indicates to include emergency and medical facilities as the point of interest.   |

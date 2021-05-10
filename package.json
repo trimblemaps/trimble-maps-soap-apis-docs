@@ -12,5 +12,8 @@
     "url": "git+https://github.com/trimblemaps/trimble-maps-soap-apis-docs.git"
   },
   "license": "MIT",
-  "author": "Trimble MAPS"
+  "author": "Trimble MAPS",
+  "scripts": {
+    "prettier": "npx prettier --write \"content/docs/**/*.md\""
+  }
 }
